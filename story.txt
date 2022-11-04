@@ -1,0 +1,4 @@
+x = car
+i = its
+z = my
+d = (x + i +z)
