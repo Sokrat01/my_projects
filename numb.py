@@ -1,5 +1,6 @@
-# exercise1 from lesson 15:
 '''
+# exercise1 from lesson 15:
+
 import random
 
 x = random.randint(1, 10)
@@ -28,6 +29,3 @@ if a == d:
 else:
     print(f"False, random number is {a}")
 '''
-
-
-
