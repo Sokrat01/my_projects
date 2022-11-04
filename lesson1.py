@@ -10,10 +10,10 @@ print("Hello "+myCountry)
 myCountry = "USA"
 print("Hello "+myCountry)
 '''
-#x = "15"
-#y = "20"
+# x = "15"
+# y = "20"
 
-#print(x+y)
+# print(x+y)
 '''
 boolOne = True
 boolTwo = False
