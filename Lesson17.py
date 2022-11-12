@@ -45,3 +45,32 @@ stud1 = Student("Sokrat", "10")
 stud1.show()
 
 '''
+
+
+# Exercise 2:
+class Rectangle:
+    length = 7
+    width = 5
+
+    def count_perimeter(self):
+        return 2 * (self.length + self.width)
+
+    def count_area(self):
+        return self.length * self.width
+
+    def display(self):
+        print("The length:\t", self.length)
+        print("The width:\t", self.width)
+        print("The width:\t", self.count_perimeter())
+        print("The width:\t", self.count_area())
+
+
+class Parallelepiped(Rectangle):
+    height = 8
+
+    def volume(self):
+        return self.height * self.count_area()
+
+
+rect_1 = Parallelepiped()
+rect_1.volume()
