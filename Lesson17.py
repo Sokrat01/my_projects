@@ -23,10 +23,9 @@ class Vehicle:
 
 
 BMW = Vehicle(260, 160)
-print(f'\nThe max speed of the car is{BMW.max_speed}')
-print(f'The max speed of the car in mileage is{BMW.mileage}')
+print(f'\nThe max speed of the car is:\t{BMW.max_speed}')
+print(f'The max speed of the car in mileage is:\t{BMW.mileage}')
 '''
-
 '''
 # Exercise2 Restyling by me: Write a Python class named Student with two attributes student_name, marks. Modify the attribute
 # values of the said class and print the original and modified values of the said attributes:
@@ -47,30 +46,5 @@ stud1.show()
 '''
 
 
-# Exercise 2:
-class Rectangle:
-    length = 7
-    width = 5
-
-    def count_perimeter(self):
-        return 2 * (self.length + self.width)
-
-    def count_area(self):
-        return self.length * self.width
-
-    def display(self):
-        print("The length:\t", self.length)
-        print("The width:\t", self.width)
-        print("The width:\t", self.count_perimeter())
-        print("The width:\t", self.count_area())
 
 
-class Parallelepiped(Rectangle):
-    height = 8
-
-    def volume(self):
-        return self.height * self.count_area()
-
-
-rect_1 = Parallelepiped()
-rect_1.volume()
